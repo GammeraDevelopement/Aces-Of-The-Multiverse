@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HUD_Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 2eb982ff151badc4e84589bdbacabdfe, type: 3}
+    - {fileID: 2800000, guid: 6a7bb6ea55359a746be06b4c3b22f575, type: 3}
+    - {fileID: 2800000, guid: 68160efe6e4b81043a2c9a80deaa6aa5, type: 3}
+    - {fileID: 2800000, guid: e8ac9f51d14ad9941b7671042418ac78, type: 3}
+    - {fileID: 2800000, guid: ca15004c4c6ea7f4a9d3eaa7e7dc474a, type: 3}
+    - {fileID: 2800000, guid: 00762b485684677488d6879ee8dd1277, type: 3}
+    - {fileID: 2800000, guid: 3daf887f5bb5b1b4ba15fca418ef41a5, type: 3}
+    - {fileID: 2800000, guid: 3daf887f5bb5b1b4ba15fca418ef41a5, type: 3}
+    - {fileID: 2800000, guid: 64c38988f4db0744b9545005d590c08d, type: 3}
+    - {fileID: 2800000, guid: c6af6c3349d509741b61966ef3eda015, type: 3}
+    totalSpriteSurfaceArea: 1146880
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e8ac9f51d14ad9941b7671042418ac78, type: 3}
+  - {fileID: 21300000, guid: c6af6c3349d509741b61966ef3eda015, type: 3}
+  - {fileID: 21300000, guid: 00762b485684677488d6879ee8dd1277, type: 3}
+  - {fileID: 21300000, guid: 64c38988f4db0744b9545005d590c08d, type: 3}
+  - {fileID: 21300000, guid: 6a7bb6ea55359a746be06b4c3b22f575, type: 3}
+  - {fileID: 21300000, guid: ca15004c4c6ea7f4a9d3eaa7e7dc474a, type: 3}
+  - {fileID: 21300000, guid: 68160efe6e4b81043a2c9a80deaa6aa5, type: 3}
+  - {fileID: 21300000, guid: 3daf887f5bb5b1b4ba15fca418ef41a5, type: 3}
+  - {fileID: 21300000, guid: 2eb982ff151badc4e84589bdbacabdfe, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Frame_evo2
+  - TimeHUD
+  - HudTeamContainer
+  - SpecialAbilityCharging
+  - Frame
+  - GoalHolo
+  - Frame_evo1
+  - SpecialAbilityCharged
+  - AbilityIcon
+  m_Tag: HUD_Atlas
+  m_IsVariant: 0

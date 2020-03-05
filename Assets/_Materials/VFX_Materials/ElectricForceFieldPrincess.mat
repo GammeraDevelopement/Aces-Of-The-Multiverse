@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ElectricForceFieldPrincess
+  m_Shader: {fileID: 4800000, guid: 7f61ab488a36ae949acccd4d5270c116, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BorderMask:
+        m_Texture: {fileID: 2800000, guid: 2494c5aee9f88994884c6793bb0f0c93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlipbookTexture:
+        m_Texture: {fileID: 2800000, guid: 4a85390cc6ee62c4aa37860b2a8fe81a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainPattern:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 4a85390cc6ee62c4aa37860b2a8fe81a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 2494c5aee9f88994884c6793bb0f0c93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: 4e883de1b8c3c3a439df23a099862311, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 2800000, guid: 4a85390cc6ee62c4aa37860b2a8fe81a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FlipbookScaleX: 1
+    - _FlipbookScaleY: 1
+    - _FlipbookSpeed: 5.5
+    - _FlipbookSpeedVertical: 0.5
+    - _Float0: 5.5
+    - _NoiseDissolve: 1
+    - _NoiseOpacity: 1
+    - _NoiseSpeed: 0.5
+    - _PatternOpacity: 1
+    - _PatternScaleX: 0
+    - _PatternScaleY: 0.47
+    - _PatternSpeedX: 0.085
+    - _PatternSpeedY: 0.03
+    - _SecondRayOffset: 1.5
+    - _SecondRaySpeed: 5.5
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 0, g: 28.06393, b: 63.99999, a: 0}
+    - _FlipbookColor: {r: 63.999992, g: 9.285291, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 0.37412918, b: 0, a: 1}
+    - _SecondRayColor: {r: 114.07579, g: 2.02617, b: 0, a: 0}

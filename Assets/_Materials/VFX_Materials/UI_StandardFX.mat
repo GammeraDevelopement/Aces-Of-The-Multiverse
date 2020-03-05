@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_StandardFX
+  m_Shader: {fileID: 4800000, guid: 0d45625a01bea1a42b382ca3e0cdb095, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CancelTexture:
+        m_Texture: {fileID: 2800000, guid: a25ec8163d87b15449d86b5aeca17596, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CounterMachineTexture:
+        m_Texture: {fileID: 2800000, guid: 4bc1576b13707e84188155b7b01b89eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseDissolve:
+        m_Texture: {fileID: 2800000, guid: 02ddcaddd3327684096696a3915f62ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NullFieldTexture:
+        m_Texture: {fileID: 2800000, guid: d232f379fd107eb4a9b86316b62e88ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BWIntensity: 1
+    - _Cancel: 0
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _BurningLine1: {r: 1, g: 0.8416689, b: 0.023584902, a: 1}
+    - _BurningLine2: {r: 1, g: 0.27877468, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CounterMachineColor: {r: 0.02800417, g: 1, b: 0, a: 1}
+    - _DissolveParams: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 1, g: 0.74414444, b: 0.5990566, a: 1}
+    - _NullFieldColor: {r: 1, g: 0, b: 0, a: 1}

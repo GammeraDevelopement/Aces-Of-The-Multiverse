@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Interface_player_ace
+  m_Shader: {fileID: 4800000, guid: 4e759773ecb509549b39ede4e4d8ca11, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Frame:
+        m_Texture: {fileID: 2800000, guid: 87d2ee1455c736e48ba22923ea1cb80f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 891be01acd1d0b149a437fba0879d847, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 5e1b8e4d18f7a944ca5eedad5fd06e3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: 0c678351efede5245b021ebb726a9539, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TileablePattern:
+        m_Texture: {fileID: 2800000, guid: 81160735627cbf845bc7f7380894ad76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _opacity:
+        m_Texture: {fileID: 2800000, guid: d826a46dd784f184f8f477359289431f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _PatternIntensity: 0.58550525
+    - _RotationSpeed: 1
+    - _ScrollSpeed: 0
+    - __dirty: 0
+    - _fade: 1
+    m_Colors:
+    - _BaseColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+    - _ColorBlend: {r: 0.9977274, g: 0.7294705, b: 0.98017645, a: 1}

@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8234174958770423326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8234174958770423320}
+  - component: {fileID: 8234174958770423323}
+  - component: {fileID: 8234174958770423327}
+  m_Layer: 9
+  m_Name: TeamManager A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8234174958770423320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234174958770423326}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -8.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8234174960136468912}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8234174958770423323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234174958770423326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ba880c68e899848ad6bbb5ff2fec1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _goal: {fileID: 0}
+  _uiEventcardList:
+  - {fileID: 0}
+  - {fileID: 0}
+  _teamIndex: 0
+  _chargeSpeed: 1
+  _teamCanvas: {fileID: 0}
+--- !u!114 &8234174958770423327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234174958770423326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6279b6de20a7e9f4d8c61c8206a58388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8234174960136468918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8234174960136468912}
+  - component: {fileID: 8234174960136468919}
+  - component: {fileID: 8234174960136468913}
+  m_Layer: 0
+  m_Name: SoccerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8234174960136468912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234174960136468918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8234174958770423320}
+  - {fileID: 8234174960392529458}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8234174960136468919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234174960136468918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a20b582d7345d64f9b8757708cf0ef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerInfluenceOnCamera: 0.05
+  BallInfluenceOnCamera: 1
+  ProCamera2D: {fileID: 0}
+  _playerPrefab: {fileID: 528922341448346798, guid: 5888ffa9ee650894fac9a9c123a78aac,
+    type: 3}
+  _endCam: {fileID: 0}
+  _soccerAI: {fileID: 8234174960136468913}
+  _strategiesIndexList:
+  - _StrategyIndexList: 0000000001000000
+  - _StrategyIndexList: 0000000001000000
+  _teams:
+  - {fileID: 8234174958770423323}
+  - {fileID: 8234174960392529453}
+  _runSpeedAnimC:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.3984846
+      outSlope: 1.3984846
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.048907388
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _ballSpeedAnimC:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.3221306
+      outSlope: 1.3221306
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.09989594
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _dashSpeedAnimC:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.7805843
+      outSlope: 0.7805843
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.14516775
+    - serializedVersion: 3
+      time: 0.49952295
+      value: 0.74952275
+      inSlope: 1.0009543
+      outSlope: 1.0009543
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _horizontalDeviationAnimC:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.0554385
+    - serializedVersion: 3
+      time: 1
+      value: 0.1
+      inSlope: -2.2665098
+      outSlope: -2.2665098
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.03954214
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _verticalDeviationAnimC:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.0554385
+    - serializedVersion: 3
+      time: 1
+      value: 0.1
+      inSlope: -2.2665098
+      outSlope: -2.2665098
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.03954214
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _catchingProbAnimC:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.0554385
+    - serializedVersion: 3
+      time: 0.2
+      value: 1
+      inSlope: -0
+      outSlope: -0.3228439
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.2665098
+      outSlope: -2.2665098
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.03954214
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _stunTimeAnimC:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.0554385
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.2665098
+      outSlope: -2.2665098
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.03954214
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _minRunSpeed: 2
+  _maxRunSpeed: 15
+  _maxStatVel: 10
+  _minBallSpeed: 5
+  _maxBallSpeed: 15
+  _maxStatForce: 10
+  _minBallOutShootSpeed: 5
+  _minBallOutPassSpeed: 5
+  _minDashSpeed: 1
+  _maxDashSpeed: 10
+  _minVerticalDev: 5
+  _maxVerticalDev: 30
+  _minHorizontalDev: 2
+  _maxHorizontalDev: 15
+  _maxStatSkillshot: 10
+  _minStunTime: 0.85
+  _maxStunTime: 3
+  _maxStatDex: 10
+  _centerRef: {fileID: 0}
+  _teamStrategyRootList:
+  - {fileID: 0}
+  - {fileID: 0}
+  _teamStartNodesRootList:
+  - {fileID: 0}
+  - {fileID: 0}
+  _startNodeListList:
+  - NodeList:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - NodeList:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  _countDownTime: 3
+  _ball: {fileID: 0}
+  _ballStartPos: {fileID: 0}
+  _currentFieldEvent: []
+  _zoomCamComp: {fileID: 0}
+  _eventCardCastPsPrefab: {fileID: 214632956784063276, guid: 8f163d14d5133ff4583713b9f5284d30,
+    type: 3}
+  _respawnCharPsPrefab: {fileID: 4651238980142694653, guid: fb4960c18893a834780bd7f4a9eb75aa,
+    type: 3}
+  _ragdollLayerMaskName: Ragdoll
+  _ragdollTag: Ragdoll
+  _playerColliderLayerMaskName: Player
+  _timeNextCountDownAud: 15
+  _lifePerPt: 15
+  _staminaPerPt: 15
+--- !u!114 &8234174960136468913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234174960136468918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a485144b7e78b864e89f7fbd2705354d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8234174960392529456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8234174960392529458}
+  - component: {fileID: 8234174960392529453}
+  - component: {fileID: 8234174960392529457}
+  m_Layer: 9
+  m_Name: TeamManager B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8234174960392529458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234174960392529456}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -8.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8234174960136468912}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8234174960392529453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234174960392529456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ba880c68e899848ad6bbb5ff2fec1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _goal: {fileID: 0}
+  _uiEventcardList:
+  - {fileID: 0}
+  - {fileID: 0}
+  _teamIndex: 1
+  _chargeSpeed: 1
+  _teamCanvas: {fileID: 0}
+--- !u!114 &8234174960392529457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234174960392529456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6279b6de20a7e9f4d8c61c8206a58388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
